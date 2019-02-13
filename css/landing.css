@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;    
+    transition: opacity 1s ease;
+}
+
+.hidden{
+    opacity: 0 !important;
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center{
+    padding-left: 25%;
+    flex: 50%;
+    opacity: 1;    
+}
+
+#quote{
+    margin: 0;
+    padding-bottom: 0.2em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: 0.1em;    
+}
+
+#author{
+    margin: 0;
+    font-family: "Source Code Pro", monospace;    
+    font-size: 64px;
+}
